@@ -27,3 +27,7 @@ require("default.hypr.toggles")
 
 -- Add any other personal Hyprland configuration below.
 -- o.window("qemu", { workspace = "5" })
+--
+-- Variable refresh rate for gaming monitors.
+hl.config({ misc = { vrr = 2 } })
+
