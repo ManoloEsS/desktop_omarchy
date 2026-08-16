@@ -63,6 +63,11 @@ hl.config({
 
     -- niri-like side-scrolling layout as the default.
     layout = "scrolling",
+    no_focus_fallback = true,
+  },
+
+  binds = {
+    window_direction_monitor_fallback = false,
   },
 
   master = {
@@ -108,4 +113,3 @@ hl.config({
 
 -- -- Rotating active border (hyprlang: animation = borderangle, 1, 64, linear, loop).
 -- hl.animation({ leaf = "borderangle", enabled = true, speed = 64, bezier = "linear", style = "loop" })
-
